@@ -104,3 +104,6 @@ venv.bak/
 .mypy_cache/
 
 .idea
+.vagrant
+
+metastore_db
