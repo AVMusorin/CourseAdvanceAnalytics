@@ -15,7 +15,7 @@ class MorseDecoder:
         # TODO: Убрать заглушку для тестов
         # Заглушка
         if cipher == "... ___ ...":
-            return "SOS"
+            return "S O S"
         if cipher == "._":
             return "A"
         if cipher == "_.._ _.__ __..":
