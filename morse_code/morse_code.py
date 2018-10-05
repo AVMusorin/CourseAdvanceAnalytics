@@ -9,6 +9,7 @@ class MorseDecoder:
     def decode(self, cipher):
         """
         Функция декодирует шифр
+        Каждая буква передается через пробел
         :param cipher: str шифр морзе
         :return: str полученное слово
         """
@@ -22,3 +23,12 @@ class MorseDecoder:
             return "X Y Z"
         # Конец заглушки
         # TODO: Реализовать функцию
+
+
+# Данная конструкция нужна для правильного импортировании модуля morse_code
+if __name__ == "__main__":
+    # создаем экземпляр класса
+    decoder = MorseDecoder()
+    # расшифрованные буквы
+    decoded_word = decoder.decode("... ___ ...")
+    print(decoded_word)
