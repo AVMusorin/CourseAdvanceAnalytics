@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class Booking:
+class Booking_com:
     def __init__(self, driver_path):
         # http://chromedriver.chromium.org/downloads
         self.driver = webdriver.Chrome(driver_path)
